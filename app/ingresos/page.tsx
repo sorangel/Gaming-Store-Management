@@ -80,6 +80,7 @@ export default function IngresosPage() {
       description: formData.description,
       paymentMethod: formData.paymentMethod,
       quantity: parseInt(formData.quantity),
+      exchangeRate: 100
     };
 
     addTransaction(transaction);

@@ -27,7 +27,7 @@ export default function AnalisisPage() {
   // Función para calcular datos por período
   const calculatePeriodData = () => {
     const now = new Date();
-    let dates = [];
+    let dates: Date[] = [];
     let dateFormat = '';
 
     switch (period) {

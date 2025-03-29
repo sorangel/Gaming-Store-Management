@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useStore } from '@/lib/store';
+import { Product } from '@/lib/store';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import {

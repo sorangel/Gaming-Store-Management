@@ -54,6 +54,7 @@ export default function GastosPage() {
       category: formData.category,
       description: formData.description,
       exchangeRate: 100,
+      quantity: 1,
     };
 
     addTransaction(transaction);

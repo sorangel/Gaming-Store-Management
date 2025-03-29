@@ -21,7 +21,7 @@ export interface Transaction {
   category: string;
   description: string;
   paymentMethod?: string;
-  quantity?: number;
+  quantity: number;
   exchangeRate: number;
 }
 
